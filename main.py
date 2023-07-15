@@ -58,34 +58,3 @@ morse_convector()
 
 while input(f"Do you want to give a new encryption/decoding assignment? Type 'y' or 'n': ") == 'y':
     morse_convector()
-
-
-
-# Подход другого студента с использованием dictionary (просто гениально как легко!)
-
-# MORSE_CODE_DICT = {'A': '.-', 'B': '-...',
-#                    'C': '-.-.', 'D': '-..', 'E': '.',
-#                    'F': '..-.', 'G': '--.', 'H': '....',
-#                    'I': '..', 'J': '.---', 'K': '-.-',
-#                    'L': '.-..', 'M': '--', 'N': '-.',
-#                    'O': '---', 'P': '.--.', 'Q': '--.-',
-#                    'R': '.-.', 'S': '...', 'T': '-',
-#                    'U': '..-', 'V': '...-', 'W': '.--',
-#                    'X': '-..-', 'Y': '-.--', 'Z': '--..',
-#                    '1': '.----', '2': '..---', '3': '...--',
-#                    '4': '....-', '5': '.....', '6': '-....',
-#                    '7': '--...', '8': '---..', '9': '----.',
-#                    '0': '-----', ', ': '--..--', '.': '.-.-.-',
-#                    '?': '..--..', '/': '-..-.', '-': '-....-',
-#                    '(': '-.--.', ')': '-.--.-'}
-#
-# user_input = input("Please enter text in English: ").upper()
-# morse_code = ""
-#
-# for letter in user_input:
-#     if letter in MORSE_CODE_DICT:
-#         morse_code += MORSE_CODE_DICT[letter]
-#     else:
-#         morse_code += letter
-#
-# print("Morse code: ", morse_code)
